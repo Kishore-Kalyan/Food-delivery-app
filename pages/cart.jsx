@@ -17,7 +17,7 @@ const Cart = () => {
   const [open, setOpen] = useState(false);
   const [cash, setCash] = useState(false);
   const amount = cart.total;
-  const currency = "USD";
+  const currency = "INR";
   const style = { layout: "vertical" };
   const dispatch = useDispatch();
   const router = useRouter();
@@ -169,7 +169,7 @@ const Cart = () => {
                   "client-id":
                     "AfF2Ix30pPLUs2RzjUhLeWXmYBXW5MZjir_kV4LkmA-zzVsfBVYNeBKqkYpaa-WfjpKDVPWuy5HmI2IN",
                   components: "buttons",
-                  currency: "USD",
+                  currency: "INR",
                   "disable-funding": "credit,card,p24",
                 }}
               >
