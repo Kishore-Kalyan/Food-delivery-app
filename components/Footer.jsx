@@ -16,24 +16,24 @@ const Footer = () => {
         <div className={styles.card}>
           <h1 className={styles.title}>FIND OUR RESTAURANTS</h1>
           <p className={styles.text}>
-            1654 R. Don Road #304.
-            <br /> NewYork, 85022
-            <br /> (602) 867-1010
+          Sri Sai Ganesh Nagar
+            <br /> Visakhapatnam, 530046
+            <br />  083284 34794
           </p>
           <p className={styles.text}>
-            2356 K. Laquie Rd #235.
-            <br /> NewYork, 85022
-            <br /> (602) 867-1011
+          M5R8+MV6, Kurmannapalem,.
+            <br /> Visakhapatnam, 530032
+            <br /> 01234 56789
           </p>
           <p className={styles.text}>
-            1614 E. Erwin St #104.
-            <br /> NewYork, 85022
-            <br /> (602) 867-1012
+          SF-01, SUKRITI APARTMENTS
+            <br /> Visakhaptnam, 530012
+            <br /> 083415 48283
           </p>
           <p className={styles.text}>
-            1614 W. Caroll St #125.
-            <br /> NewYork, 85022
-            <br /> (602) 867-1013
+          Exhibition Ground, CMR Mall
+            <br /> Visakhapatnam, 530013
+            <br /> 1800 202 2022
           </p>
         </div>
         <div className={styles.card}>
@@ -44,7 +44,7 @@ const Footer = () => {
           </p>
           <p className={styles.text}>
             SATURDAY - SUNDAY
-            <br /> 12:00 – 24:00
+            <br /> 12:00 – 22:00
           </p>
         </div>
       </div>
