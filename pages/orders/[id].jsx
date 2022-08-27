@@ -32,7 +32,7 @@ const Order = ({order}) => {
                 <span className={styles.address}>{order.address}</span>
               </td>
               <td>
-                <span className={styles.total}>${order.total}</span>
+                <span className={styles.total}>Rs.{order.total}</span>
               </td>
             </tr>
           </table>
@@ -96,13 +96,13 @@ const Order = ({order}) => {
         <div className={styles.wrapper}>
           <h2 className={styles.title}>CART TOTAL</h2>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Subtotal:</b>$79.60
+            <b className={styles.totalTextTitle}>Subtotal:</b>Rs.79.60
           </div>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Discount:</b>$0.00
+            <b className={styles.totalTextTitle}>Discount:</b>Rs.0.00
           </div>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Total:</b>$79.60
+            <b className={styles.totalTextTitle}>Total:</b>Rs.79.60
           </div>
           <button disabled className={styles.button}>
             PAID
